@@ -3,7 +3,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "8742336204:AAGq9HSJ30eS_5y1_RDBSUQFG767A77SNXg"
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Единая подпись для всех картинок
 PHOTO_CAPTION = "✨котик для настроения✨"
